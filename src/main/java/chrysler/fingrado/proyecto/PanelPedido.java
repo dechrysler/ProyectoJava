@@ -55,7 +55,7 @@ public class PanelPedido extends JPanel implements ActionListener,ListSelectionL
 		chckbxPreparado.setBounds(10, 261, 114, 35);
 		add(chckbxPreparado);
 		btnHecho= new JButton("Hecho");
-		btnHecho.setBounds(259, 354, 155, 46);
+		btnHecho.setBounds(304, 337, 155, 46);
 		add(btnHecho);
 		this.pedido=pedido;
 		nPedido.setText(""+pedido.getId());

@@ -27,7 +27,7 @@ public class Vista extends JFrame {
 	
 	public Vista() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 807, 488);
+		setBounds(100, 100, 837, 518);
 		contentPane = new JPanel();
 		contentPane.setBackground(SystemColor.activeCaption);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -35,7 +35,7 @@ public class Vista extends JFrame {
 		contentPane.setLayout(null);
 		
 		 tabbedPane = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.setBounds(10, 46, 781, 402);
+		tabbedPane.setBounds(10, 46, 811, 420);
 		contentPane.add(tabbedPane);
 		
 		JLabel lblListadoDePedidos = new JLabel("Listado de pedidos");
@@ -44,10 +44,7 @@ public class Vista extends JFrame {
 		lblListadoDePedidos.setHorizontalAlignment(SwingConstants.CENTER);
 		lblListadoDePedidos.setBounds(305, 0, 215, 25);
 		contentPane.add(lblListadoDePedidos);
-		//		PanelPedido paneles= new PanelPedido();
-//		tabbedPane.addTab("Pedido", paneles);
-//		//paneles.setBounds(10,11,765,100);
-//		scrollPane.setViewportView(paneles);
+	
 		this.setVisible(true);
 		this.setResizable(false);
 	}
