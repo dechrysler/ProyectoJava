@@ -51,7 +51,7 @@ public class PanelPrincipal extends JPanel implements ListSelectionListener {
 		Pedido ped = (Pedido) list.getSelectedValue();
 		PanelPedido panel = null;
 		panel = new PanelPedido(ped,modelo,vista);
-		vista.tabbedPane.addTab("Pedido", panel);
+		vista.tabbedPane.addTab("Pedido:"+ped.getId(), panel);
 		count++;
 	}
 	
